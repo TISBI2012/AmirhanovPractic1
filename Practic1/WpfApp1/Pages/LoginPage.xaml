@@ -1,0 +1,13 @@
+﻿<Page x:Class="WpfApp1.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="LoginPage">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="userNameBox" Width="200" />
+            <PasswordBox x:Name="userPasswordBox" Width="200" />
+            <Button Content="Войти" Click="Login_Click"/>
+            <Button Content="Зарегистрироваться" Click="RedirectRegistry_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
